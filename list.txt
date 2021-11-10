@@ -6,7 +6,11 @@ Strawberry
 Apples
 
 Dairy
-
+Milk
+Eggs
+Yoghurt
+Butter
+Cheese
 Chocolates
 
 
