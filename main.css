@@ -1,28 +1,190 @@
-html {
-  font-size: 22px;
+/* Font size width height pixels */
+
+/* h1 {
+  font-size: 65px;
+  width:600px;
+  height:300px;
+  background:blue;
+} */
+/* Relative and absolute */
+/* .inner {
+  width:100%;
+  height:75%;
+  background:blue;
 }
 
+.outer {
+  width : 500px;
+  height:500px;
+  background:red;
+} */
+
+
+/* em values */
+/* div{
+  font-size:10px;
+}
+.relative{
+  font-size:2em;
+}
+.absolute{
+  font-size:32px;
+} */
+/* REM Value */
+/* html{
+  font-size:32px
+}
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 32px;
+}
+ */
+
+/* View height/ View Width */
+
+/* .banner{
+ width:50vw;
+ height:50vh;
+ background:blue;
+}
+.header{
+  width:100vw;
+  height:100vh;
+  background-color: red;
+} */
+
+/* default browser */
+/* h2 {
+  color:red;
+  font-size:60px;
+} */
+
+/* calc()
+
+* {
+  margin : 0;
+}
+
+.navbar {
+  background:blue;
+  height:100px;
+  color:white;
+  font-size:3rem;
+}
+.banner {
+  background:red;
+  min-height:calc(100vh - 100px);
+} */
+
+/* Font size font-family */
+
+/* body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} */
+/* h1 {
+  font-family:Verdana;
+} */
+
+/* Google fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Sofia");
 body {
-  background-color: #333;
-  color: whitesmoke;
+  font-family:"Sofia",
+    sans-serif;
+} */
+
+ /* @import url("https://fonts.googleapis.com/css?family=Sofia");
+/* 
+ body {
+   font-family: "Sofia",
+     sans-serif;
+     font-style:italic;
+ }
+
+.main{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.one{
+  font-weight:700;
+  font-style:oblique;
+}
+.two {
+  font-weight:lighter;
+  font-style:italic;
+}
+.subheading {
+  font-style:normal;
+} */
+
+/* body {
+  font-family:"Sofia",sans-serif;
+  text-align: right;
+
 }
 
-a {
-  color: aliceblue;
-
+.main {
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
 }
 
-a:visited {
-  color: lightblue;
+.two{
+  text-align:left;
 }
 
-a:hover,a:active {
-  color: #eee;
+.one{
+  text-indent:1px;
+} */
+
+/* line height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+ */
+/* 
+a{
+  font-size:40px;
+  text-decoration:none;
 }
 
-table,tr,th,td,caption {
-  border: 1px solid #eee;
-  font-family: 'Courier New', Courier, monospace;
-  border-collapse:collapse;
-  padding:0.5rem;
+body{
+  text-transform: capitalize;
 }
+h1{
+  text-transform:uppercase;
+  text-decoration: line-through;
+}
+.one{
+  line-height:1em
+}
+.two{
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height:2rem;
+}
+.three {
+  word-spacing:20px;
+  text-decoration:underline
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
