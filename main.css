@@ -1,190 +1,126 @@
-/* Font size width height pixels */
+ /* css rule */
+ /* selectors */
+ /* declaration block */
 
-/* h1 {
-  font-size: 65px;
-  width:600px;
-  height:300px;
-  background:blue;
-} */
-/* Relative and absolute */
-/* .inner {
-  width:100%;
-  height:75%;
-  background:blue;
-}
+ /* declaration */
+ /* property */
+ /* value */
 
-.outer {
-  width : 500px;
-  height:500px;
-  background:red;
-} */
-
-
-/* em values */
-/* div{
-  font-size:10px;
-}
-.relative{
-  font-size:2em;
-}
-.absolute{
-  font-size:32px;
-} */
-/* REM Value */
-/* html{
-  font-size:32px
-}
-div {
-  font-size: 10px;
-}
-
-.relative {
-  font-size: 2rem;
-}
-
-.absolute {
-  font-size: 32px;
-}
- */
-
-/* View height/ View Width */
-
-/* .banner{
- width:50vw;
- height:50vh;
- background:blue;
-}
-.header{
-  width:100vw;
-  height:100vh;
-  background-color: red;
-} */
-
-/* default browser */
-/* h2 {
-  color:red;
-  font-size:60px;
-} */
-
-/* calc()
-
-* {
-  margin : 0;
-}
-
-.navbar {
-  background:blue;
-  height:100px;
-  color:white;
-  font-size:3rem;
-}
-.banner {
-  background:red;
-  min-height:calc(100vh - 100px);
-} */
-
-/* Font size font-family */
-
-/* body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-} */
-/* h1 {
-  font-family:Verdana;
-} */
-
-/* Google fonts */
-/* @import url("https://fonts.googleapis.com/css?family=Sofia");
-body {
-  font-family:"Sofia",
-    sans-serif;
-} */
-
- /* @import url("https://fonts.googleapis.com/css?family=Sofia");
-/* 
- body {
-   font-family: "Sofia",
-     sans-serif;
-     font-style:italic;
+ /* h1,h2 {
+  color:blueviolet;
  }
 
-.main{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.one{
-  font-weight:700;
-  font-style:oblique;
-}
-.two {
-  font-weight:lighter;
-  font-style:italic;
-}
-.subheading {
-  font-style:normal;
-} */
+
+ /* p {
+  color:grey;
+ } */
 
 /* body {
-  font-family:"Sofia",sans-serif;
-  text-align: right;
-
-}
-
-.main {
-  font-family:'Courier New', Courier, monospace;
-  text-align:center;
-}
-
-.two{
-  text-align:left;
-}
-
-.one{
-  text-indent:1px;
+  color:red;
 } */
 
-/* line height
-letter-spacing
-word-spacing
-text-transform
-text-decoration
- */
-/* 
-a{
+/* #heading {
+  color:green;
+  background:yellow;
+}
+#title {
+  color:red;;
+  background: gray;
+}
+
+.green {
+  color:green;
+
+}
+.red {
+  color:red;
+}
+
+#title {
   font-size:40px;
-  text-decoration:none;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+div {
+  color:red;
+  background:gray;
+}
+span{
+  text-transform: uppercase;
+} */
+
+/* Inheritance */
+
+/* body {
+  color:red;
+  font-family: monospace;
+  line-height: 1.5em;
 }
 
-body{
-  text-transform: capitalize;
+div {
+  color:blue;
+  border:3px solid black;
 }
-h1{
-  text-transform:uppercase;
-  text-decoration: line-through;
+h2{
+  color:green;
+} */
+/*  Last Rule */
+/* p {
+  color:blue;
+
 }
-.one{
-  line-height:1em
+p{
+  color:red;
+} */
+/* Specificity */
+/* .red {
+
+  color:red;
 }
-.two{
-  letter-spacing: 5px;
-  text-decoration: overline;
-  line-height:2rem;
-}
-.three {
-  word-spacing:20px;
-  text-decoration:underline
+
+p{
+  color:blue;
+} */
+
+/* Universal Selector */
+/* 
+
+* {
+  color:blue;
 } */
 
 
+/* Color Background color properties */
+/* RGB colors 0-255 */
+/* #first {
+  color:rgb(255,0,120);
+  background-color:rgb(0,0,0);
+}
+#second{
+  color:rgb(0,255,0);
+  background:black;
+}
+body {
+  background:rgb(134,100,193);
+} */
+
+/* Opacity/Transparent */
+
+/* #first{
+  color:rgb(0,123,0);
+  background:rgba(0,0,0,0.5)
+}
+#second {
+  color : rgb(45,10,34);
+  background:rgba(0,0,0,0.45)
+}
+body {
+  background:rgba(10,10,200,0.56);
+} */
 
 
+/* HEX VALUES OF COLOR */
 
-
-
-
-
-
-
-
-
-
+/* #RRGGBB */
 
