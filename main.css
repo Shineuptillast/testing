@@ -1,265 +1,178 @@
+/* Font size width height pixels */
+
+/* h1 {
+  font-size: 65px;
+  width:600px;
+  height:300px;
+  background:blue;
+} */
+/* Relative and absolute */
+/* .inner {
+  width:100%;
+  height:75%;
+  background:blue;
+}
+
+.outer {
+  width : 500px;
+  height:500px;
+  background:red;
+} */
+
+
+/* em values */
+/* div{
+  font-size:10px;
+}
+.relative{
+  font-size:2em;
+}
+.absolute{
+  font-size:32px;
+} */
+/* REM Value */
+/* html{
+  font-size:32px
+}
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 32px;
+}
+ */
+
+/* View height/ View Width */
+
 /* .banner{
-  border:5px solid red;
-  padding:10px;
-  overflow:hidden;
-
+ width:50vw;
+ height:50vh;
+ background:blue;
 }
-img{
-  float:right;
+.header{
+  width:100vw;
+  height:100vh;
+  background-color: red;
+} */
+
+/* default browser */
+/* h2 {
+  color:red;
+  font-size:60px;
+} */
+
+/* calc()
+
+* {
+  margin : 0;
 }
 
-p{
-  clear:both;
-}
-
-.one{
-  float:right;
+.navbar {
+  background:blue;
   height:100px;
-  
+  color:white;
+  font-size:3rem;
+}
+.banner {
+  background:red;
+  min-height:calc(100vh - 100px);
+} */
+
+/* Font size font-family */
+
+/* body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} */
+/* h1 {
+  font-family:Verdana;
+} */
+
+/* Google fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Sofia");
+body {
+  font-family:"Sofia",
+    sans-serif;
+} */
+
+ /* @import url("https://fonts.googleapis.com/css?family=Sofia");
+/* 
+ body {
+   font-family: "Sofia",
+     sans-serif;
+     font-style:italic;
+ }
+
+.main{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.one{
+  font-weight:700;
+  font-style:oblique;
+}
+.two {
+  font-weight:lighter;
+  font-style:italic;
+}
+.subheading {
+  font-style:normal;
+} */
+
+/* body {
+  font-family:"Sofia",sans-serif;
+  text-align: right;
+
+}
+
+.main {
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
 }
 
 .two{
-  float:left;
-  height:100px;
+  text-align:left;
+}
+
+.one{
+  text-indent:1px;
 } */
 
-/* *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+/* line height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+ */
+/* 
+a{
+  font-size:40px;
+  text-decoration:none;
 }
-div{
-  height:200px;
-  width: 33.33%;
+
+body{
+  text-transform: capitalize;
+}
+h1{
+  text-transform:uppercase;
+  text-decoration: line-through;
 }
 .one{
-  float:left;
-  background:red; 
+  line-height:1em
 }
-.two {
-  float: left;
-  background: blue;
+.two{
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height:2rem;
 }
 .three {
-  float: left;
-  background: green;
-}
-
-h1{
-  clear:both;
+  word-spacing:20px;
+  text-decoration:underline
 } */
-/* button{
-  background:red;
-  font-size:30px;
-  color:white;
-  position:fixed;
-  top:0;
-  right:0;
-}
-div {
-  border:3px solid red;
-  background-color:yellow;
-  margin-top:40px;
-  /* position: relative; */
-
-  /* }
-
-  .one{
-    background:blue;
-    /* position:relative;
-    top:50px;
-    left:20rem;
-    right:50%; */
-  /* }
-  .two {
-    background: green;
-    /* position:relative; */
-    
-  /* }
-  .special{
-    background:lightcoral;
-    font-size:20px;
-    position:absolute;
-    top:50%;
-    right:50%;
-  } */ 
-
-/* body{
-background:yellow;
-
-}
-.banner{
-  background-color: blue;
-}
-h1{
-  color:white;
-  text-align: center;
-  text-decoration:underline;
-  text-transform:capitalize;
-} */
-
-/* @media  screen and (min-width:576px) {
-  body{
-    background:red;
-  }
-  .banner{
-    background:yellow;
-  }
-  h1{
-    color:black;
-    font-size:60px;
-  }
-} */
-
-/* @media screen and (min-width:768px) {
-  body {
-    background: green;
-  }
-
-  .banner {
-    background: blue;
-  }
-
-  h1 {
-    color: red;
-    font-size: 60px;
-    text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-} */
-
-/* @media screen and (max-width:576px) {
-  body {
-    background: red;
-  }
-
-  .banner {
-    background: yellow;
-    border-radius:3rem;
-  }
-
-  h1 {
-    color: black;
-    font-size: 60px;
-  }
-}
-
-@media screen and (max-width:768px) {
-  body {
-    background: green;
-  }
-
-  .banner {
-    background: blue;
-  }
-
-  h1 {
-    color: red;
-    font-size: 60px;
-    text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-} */
-
-/* Z index */
-
-/* img{
-  width:100px;
-  height:100px;
-  position:absolute;
-}
- 
-.banner{
-  margin:20px;
-  width:80vw;
-  height:70vh;
-  border:5px solid red;
-  position:relative;
-}
-
-.one{
-  top:0;
-  left:0;
-  z-index: 0;
-}
-.two {
-  top: 10%;
-  left: 10%;
-  z-index: -1;
-}
-.three{
-  top: 20%;
-  left: 20%;
-  z-index: -2;
-} */
-
-p::before{
-  content:"hello";
-  font-weight: bold;
-  font-size:2rem;
-  color: red;
-  display:block;
-  background-color: black;
-
-}
-
-p::after{
-  content:"after";
-  /* font-weight: bold;
-    font-size: 2rem;
-    color: red;
-    display: block;
-    background-color: black; */
-    display: block;
-    width:50px;
-    height:50px;
-    background:green;
-}
-div{
-  width:60vw;
-  margin:100px auto;
-  /* border:2px solid red; */
-  position:relative;
-}
-img{
-  width: 100%;
-  display:block;
-}
-
-img::before{
-  content:"hello";
-}
-div::before{
-  content:"";
-  border: 2px solid grey;
-  width:100%;
-  height:100%;
-  position: absolute;
-  box-sizing:border-box;
-  top:-40px;
-  left:-40px;
-  z-index:-2;
-}
-div::after{
-  content: "";
-    background-color: grey;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    top: -20px;
-    left: -20px;
-    z-index: -1;
-    transition: all 0.5s linear;
-}
-
-div:hover::after{
-
-  top:0;
-  left:0
-
-}
-
 
 
 
